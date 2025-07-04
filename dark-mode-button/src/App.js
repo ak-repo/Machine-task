@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import "./index.css";
 
 function App() {
@@ -7,9 +8,8 @@ function App() {
   function ChangeTheme() {
     setColor((color) => (color === "white" ? "black" : "white"));
   }
-  document.querySelector("body").style.backgroundColor = color;
+  document.body.style.backgroundColor = color;
 
-  console.log(color);
   return (
     <div className="app">
       <Theme bg={ChangeTheme} />
