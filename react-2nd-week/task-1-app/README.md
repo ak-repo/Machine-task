@@ -1,0 +1,3 @@
+A Task is available in this topic
+React Router dom Blog
+Application Vercel deployed Create a react app using React router dom. where there will be: - a registration page. - a login page. - a home page. When the submit button is clicked during registration, the user should be directed to the login page. After the user clicks the login button on the login page, they should be redirected to the home page. - Form validation is not needed.

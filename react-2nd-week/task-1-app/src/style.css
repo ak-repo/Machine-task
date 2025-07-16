@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  padding: 100px;
+  text-align: center;
+  
+}
+.page form{
+    width: 300px;
+    margin: auto;
+    border: 2px solid rgb(128, 28, 28);
+}
+.page .regi input, button{
+    display: block;
+    margin: 10px;
+    width: 270px;
+    height: 30px;
+}
