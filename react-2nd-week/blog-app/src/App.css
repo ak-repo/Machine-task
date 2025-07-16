@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page form {
+  width: 700px;
+  background-color: lightblue;
+  margin: auto;
+  margin-top: 50px;
+}
+.page form input {
+  display: block;
+  width: 400px;
+  height: 30px;
+  padding: 20px;
+}
+.page form textarea {
+  width: 600px;
+  height: 400px;
+  margin: 50px;
+}
+.page form button {
+  padding: 10px;
+  background-color: gray;
+  border-radius: 12px;
+  margin: 0 0 10px 310px;
+}

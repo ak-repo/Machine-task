@@ -1,0 +1,79 @@
+{
+  "Blogs": [
+    {
+      "id": 1,
+      "title": "Understanding React useState Hook",
+      "paragraph": "The useState hook is a fundamental part of React's functional components. It allows you to add state to your components and update it dynamically."
+    },
+    {
+      "id": 2,
+      "title": "What is REST API?",
+      "paragraph": "A REST API is an application programming interface that follows the REST architecture style, allowing communication between client and server over HTTP methods."
+    },
+    {
+      "id": 3,
+      "title": "JavaScript Promises Simplified",
+      "paragraph": "Promises in JavaScript provide a way to handle asynchronous operations. They allow you to attach callbacks for success and failure scenarios."
+    },
+    {
+      "id": "fd54",
+      "title": "apple",
+      "para": "apple is fruite"
+    },
+    {
+      "id": "8527",
+      "title": "orange",
+      "para": "also"
+    },
+    {
+      "id": "55a7",
+      "title": "ss",
+      "para": "sss"
+    },
+    {
+      "id": "c654",
+      "title": "kkka",
+      "para": "aaa"
+    },
+    {
+      "id": "1802",
+      "title": "",
+      "para": ""
+    },
+    {
+      "id": "79a1",
+      "title": "hii",
+      "para": "bye"
+    },
+    {
+      "id": "e179",
+      "title": "grapes",
+      "para": "aslo"
+    },
+    {
+      "id": "dae8",
+      "title": "home",
+      "para": "hii"
+    },
+    {
+      "id": "bf71",
+      "title": "Athul",
+      "para": "MERN stack-developer in Brodegon"
+    },
+    {
+      "id": "2de4",
+      "title": "",
+      "paragraph": ""
+    },
+    {
+      "id": "b6f4",
+      "title": "",
+      "paragraph": ""
+    },
+    {
+      "id": "9bc6",
+      "title": "",
+      "paragraph": ""
+    }
+  ]
+}
