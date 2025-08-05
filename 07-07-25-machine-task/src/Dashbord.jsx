@@ -19,12 +19,20 @@ export default function Dashbord() {
   );
 }
 
-function Card(props) {
+function Card() {
   useEffect(() => {
     console.log("Card Mounted");
     return console.log("card unmounted");
   }, []);
 
+  return (
+    <>
+      <Fun />
+    </>
+  );
+}
+
+function Fun(props) {
   return (
     <React.Fragment>
       <div>{props.children}</div>
