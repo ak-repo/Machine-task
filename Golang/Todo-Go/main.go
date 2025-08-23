@@ -9,6 +9,8 @@ import (
 // package level list
 var todoList = map[int]string{}
 
+var currentId int
+
 func main() {
 
 	var operation string
@@ -50,10 +52,11 @@ done:
 }
 
 func addTodo() {
+	currentId++
 	var todo string
 	fmt.Println("Enter Yoeu new todo")
-	fmt.Scan(&todo)
-	todoList[len(todoList)+1] = todo
+	fmt.Scanln(&todo)
+	todoList[currentId] = todo
 	fmt.Println("Todo Added successfully")
 
 }
@@ -64,9 +67,13 @@ func deleteTodo() {
 	fmt.Println("enter id of delete todo")
 	fmt.Scan(&id)
 	res, _ := strconv.Atoi(id)
-	// if
-	delete(todoList, res)
-	fmt.Println("deteted successfully")
+	if _, exist := todoList[res]; exist {
+		delete(todoList, res)
+		fmt.Println("deteted successfully")
+
+	} else {
+		fmt.Println("No todo found with that ID")
+	}
 
 }
 
@@ -76,11 +83,16 @@ func editTodo() {
 	fmt.Println("Enter id of which todo you want to edit ")
 	fmt.Scan(&id)
 	fmt.Println("Enter new Todo")
-	fmt.Scan(&newTodo)
+	fmt.Scanln(&newTodo)
 	res, _ := strconv.Atoi(id)
 
-	todoList[res] = newTodo
-	fmt.Println("Todo updated successfully")
+	if _, exist := todoList[res]; exist {
+		todoList[res] = newTodo
+		fmt.Println("Todo updated successfully")
+
+	} else {
+		fmt.Println("No todo found with that ID")
+	}
 
 }
 
