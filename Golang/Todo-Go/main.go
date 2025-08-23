@@ -55,7 +55,7 @@ func addTodo() {
 	currentId++
 	var todo string
 	fmt.Println("Enter Yoeu new todo")
-	fmt.Scanln(&todo)
+	fmt.Scan(&todo)
 	todoList[currentId] = todo
 	fmt.Println("Todo Added successfully")
 
@@ -83,7 +83,7 @@ func editTodo() {
 	fmt.Println("Enter id of which todo you want to edit ")
 	fmt.Scan(&id)
 	fmt.Println("Enter new Todo")
-	fmt.Scanln(&newTodo)
+	fmt.Scan(&newTodo)
 	res, _ := strconv.Atoi(id)
 
 	if _, exist := todoList[res]; exist {
